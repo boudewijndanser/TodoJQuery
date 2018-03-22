@@ -4,6 +4,7 @@
   <meta charset="utf-8">
   <title>TodoList Boudewijn Danser JQuery</title>
   <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 </head>
 <body>
   <div class="container">
@@ -31,7 +32,7 @@
   </div>
 
   <script>
-  	// JavaScript here...
+  	 $("#total-count").html($(".todo").length);
   </script>
 </body>
 </html>
